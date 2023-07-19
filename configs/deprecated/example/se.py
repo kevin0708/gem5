@@ -281,7 +281,7 @@ else:
     system.system_port = system.membus.cpu_side_ports
     CacheConfig.config_cache(args, system)
     MemConfig.config_mem(args, system)
-    config_filesystem(system, args)
+
 
 system.workload = SEWorkload.init_compatible(mp0_path)
 
