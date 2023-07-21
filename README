@@ -2,6 +2,10 @@
 This branch adds the support for the DRAMsim3
 The original gem5 can not directly set --mem-type=DRAMsim3
 Some modifications are done on the /configs/common
+
+After cloning this repo you still needs to follow the instruction in the ext/dramsim3 to compile the DRAMsim3. 
+That will make sure that the DRAMsim3 is available for you.
+
 Any problem you can launch an issue.
 
 ##########################################################################################
